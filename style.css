@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+form, #incompleteBookList, #completeBookList{
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.book-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 0.9em;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.book-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn-green {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-red {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-blue {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-yellow {
+    background-color: #ffc107;
+    color: white;
+}
+
+#incompleteBookList, #completeBookList {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}

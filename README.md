@@ -14,3 +14,6 @@ Bookshelf Apps adalah aplikasi berbasis web yang memungkinkan pengguna untuk men
 1. HTML: Struktur utama aplikasi.
 2. CSS: Styling tampilan aplikasi agar lebih menarik.
 3. JavaScript: Logika aplikasi untuk mengelola data buku.
+
+# 🖼️ Preview Tampilan
+![Preview Tampilan](https://github.com/Rizkyhanifaa/Bookshelf_App_Starter_Project/blob/main/preview.png?raw=true)
